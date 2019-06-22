@@ -1,0 +1,9 @@
+sudo virtualenv -p python3 iwild3
+source iwild3/bin/activate
+deactivate
+
+source Iwild/venv/bin/activate
+
+pip install --upgrade tensorflow-gpu
+
+sudo python3 -m pip uninstall pip && sudo apt install python3-pip --reinstall
